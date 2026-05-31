@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div class="navbar">
+            <div class="movieSearch">
+                <i class="fa-solid fa-film"></i>
+                <h3>MovieSearch</h3>
+            </div>
+            <div class="favorites">
+                <button id="dark-light-mode"><i class="fa-solid fa-moon"></i></button>
+                <button id="fav-btn">
+                    <i class="fa-regular fa-heart"></i> 
+                    Favorite
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="heading1">
+            <h1>Find Your Next Movie</h1>
+            <p>Search for any movie and discover details, rating, and more.</p>
+        </div>
+        <div class="search-bar">
+
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            id="search-input"
+            type="text"
+            placeholder="Search for a movie..."
+            autocomplete="off"
+        >
+    </div>
+
+    <button id="search-btn">Search</button>
+
+</div>
+        <div class="movie-info-bar">
+            <div class="movie-img">
+                <img id="movie-poster" src="https://picsum.photos/300/450" alt="movie poster">
+            </div>
+            <div class="movie-info">
+                <h2 id="Movie-Name">Inception</h2>
+                <div class="rating">
+                    <span id="Year">2010</span>
+                    <span id="movie-rated">PG_13</span>
+                    <span>
+                     <i class="fa-solid fa-star"></i>
+                     <span id="movie-rating">8.8/10</span>
+                    </span>
+                </div>
+                <p><span class="label">Plot</span></p>
+<p id="plot-info">Plot will be here</p>
+<p >
+    <span class="label">Director:</span>
+    <span id="Director">Christopher Nolan</span>
+</p>
+<p >
+    <span class="label">Genre:</span>
+     <span id="Genre">Action, Adventure, Sci-Fi</span>
+</p>
+<p >
+    <span class="label">Runtime:</span>
+   <span id="Runtime">148 min</span>
+</p>
+<p >
+    <span class="label">Actors:</span>
+    <span id="Actors">Leonardo DiCaprio</span>
+</p>
+                <button id="movie-fav-btn">
+                    <i class="fa-regular fa-heart"></i>Add to favorites
+                </button>
+            </div>
+        </div>
+        <div class="popular-movie">
+            <div class="text">
+                <h2>Popular Movies</h2>
+
+            </div>
+            <div class="popular-movie-info">
+                <!-- here dynamicall display.. -->
+            </div>
+        </div>
+    </main>
+    <footer>
+       <p>© 2026 Movie Search. All rights reserved.</p>
+    </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
