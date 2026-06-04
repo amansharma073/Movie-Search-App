@@ -2,6 +2,10 @@
 
 A responsive Movie Search application built using HTML, CSS, and JavaScript. The app uses the OMDb API to fetch real-time movie information and allows users to search, explore, and save their favorite movies.
 
+## 🌐 Live Demo
+
+> [View Live Demo](https://movie-search-app-orpin.vercel.app/)
+
 ## Features
 
 * Search movies by title
